@@ -2,6 +2,8 @@
 
 > - A simple game computer program that runs in the browser. This allow you to increase the score as you jump the ball. If the ball reach the bottom the score will reset to zero.
 
+<br />
+
 ## Technology Stack
 
 > Programming Language ‣ 𝘛𝘺𝘱𝘦𝘚𝘤𝘳𝘪𝘱𝘵 <br />
