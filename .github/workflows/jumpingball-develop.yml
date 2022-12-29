@@ -56,7 +56,7 @@ jobs:
           npm run lint
       - name: Run prettier
         run: |
-          npm run Format
+          npm run format
       - name: Save changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
