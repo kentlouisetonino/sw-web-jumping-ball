@@ -5,7 +5,7 @@ import Control from './Control'
 export default function GameBox() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const controlRef = useRef<HTMLButtonElement>(null)
-  let count = 0
+  let score = 0
   let y = 350
 
   useEffect(() => {
@@ -30,9 +30,9 @@ export default function GameBox() {
       context?.stroke()
 
       // drawing the count value
-      context!.font = '25px Arial'
+      context!.font = '20px Titillium Web, sans-serif'
       context!.fillStyle = 'white'
-      context?.fillText('Count: ' + count, 20, 30)
+      context?.fillText('Score: ' + score, 20, 30)
 
       if (y <= 350) {
         speed += 20 * timePassed
@@ -40,7 +40,7 @@ export default function GameBox() {
       }
 
       if (y > 350) {
-        count = 0
+        score = 0
         speed = 0
       }
 
@@ -59,15 +59,15 @@ export default function GameBox() {
         <Control
           ref={controlRef}
           onClick={() => {
-            count += 1
+            score += 1
             y -= 25
           }}
           onKeyDown={() => {
-            count += 1
+            score += 1
             y -= 25
           }}
           onTouchStart={() => {
-            count += 1
+            score += 1
             y -= 25
           }}
         >
