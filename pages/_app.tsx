@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>Collision Detector</title>
+        <title>Jumping Ball</title>
         <link rel="icon" href="/favicon.ico" type="image/png" sizes="16x16" />
       </Head>
       <Component {...pageProps} />
