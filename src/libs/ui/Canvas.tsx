@@ -1,3 +1,4 @@
+'use client'
 import { forwardRef, LegacyRef, ReactNode } from 'react'
 
 interface CanvasProps {

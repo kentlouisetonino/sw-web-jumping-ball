@@ -1,3 +1,4 @@
+'use client'
 import { LegacyRef, ReactNode, forwardRef } from 'react'
 
 interface ControlProps {

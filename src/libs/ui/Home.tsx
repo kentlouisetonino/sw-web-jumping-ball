@@ -1,5 +1,6 @@
+'use client'
 import { Fragment, useEffect, useState } from 'react'
-import GameBox from '../libs/design/GameBox'
+import GameBox from './GameBox'
 
 export default function Home() {
   const [browserWidth, setBrowserWidth] = useState(0)

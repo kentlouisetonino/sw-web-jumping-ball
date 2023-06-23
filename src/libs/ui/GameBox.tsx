@@ -1,3 +1,4 @@
+'use client'
 import { Fragment, useEffect, useRef } from 'react'
 import Canvas from './Canvas'
 import Control from './Control'
