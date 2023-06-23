@@ -4,10 +4,10 @@ import Canvas from './Canvas'
 import Control from './Control'
 
 export default function GameBox() {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
-  const controlRef = useRef<HTMLButtonElement>(null)
   let score = 0
   let y = 350
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const controlRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     const canvas = canvasRef.current
