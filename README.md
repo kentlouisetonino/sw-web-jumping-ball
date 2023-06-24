@@ -4,7 +4,11 @@
 
 <br />
 
-> - App: https://web-jumping-ball.vercel.app 
+> - App: https://web-jumping-ball.vercel.app
+
+<br />
+
+https://github.com/kentlouisetonino/web-jumping-ball/assets/69438999/760ff233-0c74-43bf-8ff0-50a38bbfcb81
 
 <br />
 <br />
@@ -22,10 +26,3 @@ yarn dev
 <br />
 <br />
 <br />
-
-
-
-## Recording
-https://github.com/kentlouisetonino/web-jumping-ball/assets/69438999/760ff233-0c74-43bf-8ff0-50a38bbfcb81
-
-
