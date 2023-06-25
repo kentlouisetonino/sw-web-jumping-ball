@@ -16,13 +16,9 @@ https://github.com/kentlouisetonino/web-jumping-ball/assets/69438999/760ff233-0c
 
 
 
-## Repository Setup
+## Setup Guide
 ```plaintext
 yarn install
 yarn build
 yarn dev
 ```
-
-<br />
-<br />
-<br />
